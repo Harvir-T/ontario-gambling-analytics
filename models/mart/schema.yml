@@ -1,0 +1,112 @@
+version: 2
+
+
+
+models:
+  - name: mart_olg_casino_totals
+    description: "This model aggregates total revenue and average patrons for casinos for each year from 1999 to 2015"
+    columns:
+      - name: fiscal_year
+        data_tests:
+          - not_null
+        description: "The year of the data"
+      - name: quarter
+        description: "The quarter of the year (Q1, Q2, Q3, Q4)"
+        data_tests:
+          - not_null
+      - name: total_gaming_revenue_m
+        data_tests:
+          - not_null:
+              config:
+                severity: warn
+        description: "Total revenue for all casinos in that year"
+      - name: total_revenue_to_municipality_m
+        data_tests:
+          - not_null:
+              config:
+                severity: warn
+        description: "Total revenue shared with municipalities for that year"
+      - name: average_number_of_patrons_daily_average
+        data_tests:
+          - not_null
+        description: "Average number of patrons across all casinos in that year"
+
+  - name: mart_igaming_yearly_trend
+    description: "This model aggregates total revenue and average daily active users for iGaming in Ontario for each year from 2019 to 2023"
+    columns:
+      - name: fiscal_year
+        data_tests:
+          - unique
+          - not_null
+        description: "The year of the data"
+      - name: total_cash_wagers_m
+        data_tests:
+          - not_null
+        description: "Total cash wagers for iGaming in that year"
+      - name: total_naggr_m
+        data_tests:
+          - not_null
+        description: "Total net gaming revenue for iGaming in that year"
+      - name: average_active_player_accounts_k
+        data_tests:
+          - not_null
+        description: "Average number of active player accounts for iGaming in that year in thousands"
+      - name: average_arppa_cad
+        data_tests:
+          - not_null
+        description: "Average revenue per active player account for iGaming in that year in CAD"
+
+  - name: mart_olg_casino_performance
+    description: "This model aggregates total revenue and average patrons and employees per casino site across all years from 1999 to 2015"
+    columns:
+      - name: site
+        data_tests:
+          - unique
+          - not_null
+        description: "The name of the casino site"
+      - name: total_gaming_revenue_m
+        data_tests:
+          - not_null
+        description: "Total gaming revenue for the casino site across all years"
+      - name: total_revenue_to_municipality_m
+        data_tests:
+          - not_null:
+              config:
+                severity: warn
+        description: "Total revenue shared with the municipality for the casino site across all years"
+      - name: average_number_of_patrons_daily_average
+        data_tests:
+          - not_null
+        description: "Average daily patron count for the casino site across all years"
+      - name: average_number_of_employees
+        description: "Average number of employees at the casino site across all years"
+
+  - name: mart_olg_trends
+    description: "This model aggregates OLG casino metrics by fiscal year and quarter from 1999 to 2015"
+    columns:
+      - name: fiscal_year
+        data_tests:
+          - not_null
+        description: "The fiscal year of the data"
+      - name: quarter
+        data_tests:
+          - not_null
+        description: "The quarter of the fiscal year (Q1, Q2, Q3, Q4)"
+      - name: total_gaming_revenue_m
+        data_tests:
+          - not_null:
+              config:
+                severity: warn
+        description: "Total gaming revenue across all casinos for that fiscal year and quarter in millions"
+      - name: average_patrons_daily_average
+        data_tests:
+          - not_null:
+              config:
+                severity: warn
+        description: "Average daily patron count across all casinos for that fiscal year and quarter"
+      - name: total_number_of_slot_machines
+        description: "Total number of slot machines across all casinos for that fiscal year and quarter"
+      - name: total_number_of_table_games
+        description: "Total number of table games across all casinos for that fiscal year and quarter"
+      - name: total_number_of_employees
+        description: "Total number of employees across all casinos for that fiscal year and quarter"
