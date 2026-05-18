@@ -47,7 +47,7 @@ models:
         data_tests:
           - not_null
         description: "Total net gaming revenue for iGaming in that year"
-      - name: average_active_player_accounts_k
+      - name: total_active_player_accounts_k
         data_tests:
           - not_null
         description: "Average number of active player accounts for iGaming in that year in thousands"
