@@ -39,19 +39,19 @@ models:
           - unique
           - not_null
         description: "The year of the data"
-      - name: total_cash_wagers_m
+      - name: current_year_cash_wagers_m
         data_tests:
           - not_null
         description: "Total cash wagers for iGaming in that year"
-      - name: total_naggr_m
+      - name: current_year_naggr_m
         data_tests:
           - not_null
         description: "Total net gaming revenue for iGaming in that year"
-      - name: total_active_player_accounts_k
+      - name: current_year_active_player_accounts_k
         data_tests:
           - not_null
         description: "Average number of active player accounts for iGaming in that year in thousands"
-      - name: average_arppa_cad
+      - name: current_year_average_arppa_cad
         data_tests:
           - not_null
         description: "Average revenue per active player account for iGaming in that year in CAD"
