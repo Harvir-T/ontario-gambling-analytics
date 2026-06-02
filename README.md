@@ -16,9 +16,7 @@ Ontario's regulated online gambling market launched in April 2022, making it one
 
 ### Data Sources
 
-OLG Quarterly Performance Report 1999 - 2015
-
-
+# OLG Quarterly Performance Report 1999 - 2015
 - https://data.ontario.ca/dataset/ontario-lottery-and-gaming-corporation-performance
 - This data set comes from the official data.ontario.ca site.
 - This contains Gaming Revenue, Gaming Revenue Monthly Average, Revenue to Municipality, Number of Patrons, Number of Slot Machines, Number of Table Games, Number of Employees, and OLG payroll.
@@ -43,6 +41,9 @@ Steps taken to process the market data:
 
 ### Key Findings
 BQ1: Between 1999 and 2015, Ontario's land-based casinos generated $49.5 billion CAD in total gaming revenue, averaging approximately $3.09 billion annually. In contrast, Ontario's regulated online gambling market generated $10.9 billion CAD between April 2022 and February 2026, roughly 3.5 years, averaging approximately $3.12 billion annually. This means the online market effectively matched the annual revenue of the land-based casino industry within its first few years of operation, a remarkable pace of growth for a newly regulated market.
+
+<img width="728" height="650" alt="image" src="https://github.com/user-attachments/assets/6b53fcb4-a77c-49e0-8baa-62f358112b78" />
+BQ2: Between 1999 and 2015 we see that Ontario's land-based casinos experienced 
 
 
 ### Resources:
