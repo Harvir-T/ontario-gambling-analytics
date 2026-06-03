@@ -42,8 +42,21 @@ Steps taken to process the market data:
 ### Key Findings
 BQ1: Between 1999 and 2015, Ontario's land-based casinos generated $49.5 billion CAD in total gaming revenue, averaging approximately $3.09 billion annually. In contrast, Ontario's regulated online gambling market generated $10.9 billion CAD between April 2022 and February 2026, roughly 3.5 years, averaging approximately $3.12 billion annually. This means the online market effectively matched the annual revenue of the land-based casino industry within its first few years of operation, a remarkable pace of growth for a newly regulated market.
 
-<img width="728" height="650" alt="image" src="https://github.com/user-attachments/assets/6b53fcb4-a77c-49e0-8baa-62f358112b78" />
-BQ2: Between 1999 and 2015 we see that Ontario's land-based casinos experienced 
+BQ2: Between 1999 and 2015 we see that Ontario's land-based casinos experienced a rise until 2005 then a steady decline afterwards leading up to 2005. The decline can be shown in the charts below. 
+
+<img width="728" height="650" alt="revenue-image" src="https://github.com/user-attachments/assets/6b53fcb4-a77c-49e0-8baa-62f358112b78" />
+
+<img width="527" height="396" alt="patrons-image" src="https://github.com/user-attachments/assets/945bb882-872d-4bc1-994e-5ca4e189a422" /> 
+
+These charts show the revenue from land based casinos rise to a peak of $3.657 billion CAD in the 2005/2006 Fiscal Year followed by an average drop of $57 million CAD in revenue per year. We can also see that the patrons fluctuated for the first few years then reached a peak of 127,933 daily average patrons in the 2004/2005 Fiscal Year followed by a steady decline in the following years.
+
+<img width="897" height="406" alt="employee-image" src="https://github.com/user-attachments/assets/4a937f0a-4735-420e-a611-5b04e4898d35" />
+
+<img width="500" height="387" alt="slots-image" src="https://github.com/user-attachments/assets/224e9952-2235-47ce-9c84-cfaa89807344" />
+
+The decline is also seen in the infrastructure of Ontario's land based casinos through the number of employees and the amount of slot machines. We see the peak of employees and the curve of the amount of slot machines flatten in the 2004/2005 Fiscal Year. These declines around 2004 suggest that the rise of home entertainment and early online alternatives caused the land casino numbers to decline.
+
+
 
 
 ### Resources:
