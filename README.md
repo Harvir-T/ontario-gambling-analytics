@@ -58,7 +58,7 @@ The decline is also seen in the infrastructure of Ontario's land based casinos t
 
 BQ3: After Ontario's online gambling market was regulated in April 2022 we witnessed Year over Year growth rates for the 2023 - 2025 years. These growth rates are shown in the chart below.
 
-<img width="1193" height="343" alt="yoy-image" src="https://github.com/user-attachments/assets/c9af8107-0a63-40dc-ae0e-5e31aed6d004" />
+<img width="739" height="342" alt="yoy-image" src="https://github.com/user-attachments/assets/7965b44a-f986-4ec9-a8ad-7ac0934b6d16" />
 
 We are only able to show the growth rates from 2023 - 2025 because 2022 is the baseline year and 2026 is only partial data as the dataset only has data until February 2026. We see explosive growth from 2022 to 2023 as the Gaming Revenue grew 155.27% in the first year of regulated online gambling. In the following 2 years we see a growth of 32.49% and 34.32% respectively.
 
